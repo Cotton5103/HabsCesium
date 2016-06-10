@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>doc.kml</name>
+	<StyleMap id="msn_parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_parks">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_parks">
+		<IconStyle>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>ぽむ</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>ぽむ</name>
+			<color>91ffffff</color>
+			<Icon>
+				<href>https://github.com/Cotton5103/HabsCesium/blob/master/pomface.png?raw=true</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>35.74431806626286</north>
+				<south>35.6821854752103</south>
+				<east>139.8086472775128</east>
+				<west>139.7337537592608</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<Placemark>
+			<name>お鼻の上の芝生</name>
+			<LookAt>
+				<longitude>139.7807395258444</longitude>
+				<latitude>35.71268993066214</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01374966139387045</heading>
+				<tilt>38.0548384517678</tilt>
+				<range>6398.771689428748</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7707028681755,35.7106993930804,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ほっぺの上のドーム</name>
+			<LookAt>
+				<longitude>139.7785017220609</longitude>
+				<latitude>35.70306099991829</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0190629911291182</heading>
+				<tilt>30.83607896635809</tilt>
+				<range>4991.540343349099</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7516543524814,35.7053812470399,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
